@@ -1,0 +1,16 @@
+.noResultWrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+
+  @media (max-width: 767px) {
+    height: 90vh;
+  }
+
+  h1 {
+    @media (max-width: 767px) {
+      font-size: 20px;
+    }
+  }
+}
